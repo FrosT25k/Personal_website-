@@ -1,0 +1,14 @@
+header { 
+  display:grid;
+  place-items:center;
+  height: 100vh;
+  }
+h1 { 
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-family:Ariel;
+}
+.char {
+  transform: translateY(115px);
+  transition:transform .5s;
+}
